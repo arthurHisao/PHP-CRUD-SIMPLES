@@ -12,7 +12,7 @@
     <body>
         <?php
             require './Conexao.php';
-            ini_set('display_errors', 1);
+            //ini_set('display_errors', 1);
             //recebendo os dados em um array, tipo post, valor recebido string
             $Dados = filter_input_array(INPUT_POST, FILTER_DEFAULT);
 //                echo '<pre>';

@@ -35,7 +35,7 @@
             endif;
         
             //mostrar registros
-            ini_set('display_errors', 1);
+            //ini_set('display_errors', 1);
             
             require './Conexao.php';
             $con = new Conexao();
