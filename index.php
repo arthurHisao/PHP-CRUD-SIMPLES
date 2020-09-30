@@ -17,10 +17,9 @@
           <tr>
             <th scope="col"></th>
                 <th scope="col">ID</th>
-            <th scope="col"></th>
-                <th scope="col">E-mail</th>
                 <th scope="col">Nome</th>
-                <th scope="col">Inserido</th>
+                <th scope="col">E-mail</th>
+                <th scope="col">Usuário</th>
                 <th scope="col">Alterado</th>
                 <th scope="col">Links</th>
                 <th scope="col"></th>
@@ -51,7 +50,7 @@
                 echo "<td>" .$row_user['id'] ."</td>";
                 echo "<td>" .$row_user['nome'] ."</td>";
                 echo "<td>" .$row_user['email'] ."</td>";
-                echo "<td>" .$row_user['senha'] ."</td>";
+                echo "<td>" .$row_user['usuario'] ."</td>";
                 echo "<td>:" .date('d/m/y H:i:s', strtotime($row_user['created'])) ."</td>";
                 if(!empty($row_user['modified'])):
                     echo "<td>:".date('d/m/y H:i:s', strtotime($row_user['modified'])) ."</td>";
