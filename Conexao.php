@@ -9,7 +9,7 @@ class Conexao { //conexao com banco
 
     public static $Host = "localhost";
     public static $User = "root";
-    public static $Pass = "kekkaishi";
+    public static $Pass = "sua senha";
     public static $Dbname = "aula";
     private static $Connect = null;
     
